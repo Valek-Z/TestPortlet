@@ -11,12 +11,12 @@
 	
 	<form method="GET" id="sendgetform">
 		Enter Your Name: <input type="text" id="name" />
-		 <input class="sendGET"  id="sendGET" type = "button" value = "Click GET" />
+		 <input class="sendGET"  id="sendGET" type = "button" value = "Click to see the greeting" />
 	</form>
 	<br>
-	<br>
+	
 
-	<strong>GET Response</strong>:
+	<strong>Answer to you: </strong>:
 	<p>
 	<div id="ajaxGetUserPortletResponse"></div>
 <p>

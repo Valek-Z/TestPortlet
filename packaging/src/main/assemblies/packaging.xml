@@ -14,7 +14,7 @@
                 <include>${project.groupId}:valek-portlet:war</include>
             </includes>
             <scope>provided</scope>
-            <outputFileNameMapping>valek-portlet-1.0.war</outputFileNameMapping>
+            <outputFileNameMapping>valek-portlet.war</outputFileNameMapping>
         </dependencySet>
         <!-- services -->
         <dependencySet>

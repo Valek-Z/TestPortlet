@@ -32,7 +32,7 @@ public class RestService implements ResourceContainer {
 			if(name == null || "".equals(name)){
 				name = "Guest";
 			}
-			  String greetings = "{ \"name\": \"Hello on portlet "   +name + "\" } " ;
+			  String greetings = "{ \"name\": \"hello in our portlet "   +name + "\" } " ;
 		
 	        return Response.created(uriInfo.getAbsolutePath())
 					.entity(greetings)
