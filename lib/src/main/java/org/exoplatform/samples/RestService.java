@@ -1,4 +1,4 @@
-package exo.rest.service;
+package org.exoplatform.samples;
 
 import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.Consumes;

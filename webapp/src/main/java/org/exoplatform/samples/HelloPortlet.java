@@ -1,4 +1,4 @@
-package com.acme.samples;
+package org.exoplatform.samples;
 import java.io.IOException;
 import javax.portlet.GenericPortlet;
 import javax.portlet.PortletRequestDispatcher;

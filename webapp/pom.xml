@@ -1,8 +1,13 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.acme.samples</groupId>
+	<parent>
+		<groupId>org.exoplatform.samples</groupId>
+		<artifactId>addon-template</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>org.exoplatform.samples</groupId>
 	<artifactId>valek-portlet</artifactId>
-	  <version>0</version>
+	  <version>1.0</version>
 	<packaging>war</packaging>
 	<name>maven</name>
 	<url>http://maven.apache.org</url>
