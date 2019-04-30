@@ -27,6 +27,72 @@
 			<version>4.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+      <groupId>org.juzu</groupId>
+      <artifactId>juzu-core</artifactId>
+      <scope>provided</scope>
+    </dependency>  
+   <dependency>
+      <groupId>org.juzu</groupId>
+      <artifactId>juzu-plugins-less</artifactId>
+      <scope>provided</scope>
+    </dependency>
+      <dependency>
+      <groupId>org.exoplatform.commons</groupId>
+      <artifactId>commons-juzu</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.juzu</groupId>
+      <artifactId>juzu-plugins-portlet</artifactId>
+      <scope>provided</scope>
+    </dependency>
+   
+
+    <!-- Groovy is shipped with GateIn -->
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>1.7.6</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Servlet 3.x API -->
+   
+
+    <!-- Dependencies for Guice in GateIn portal -->
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>3.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Junit for testing -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.juzu</groupId>
+      <artifactId>juzu-depchain-arquillian</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.juzu</groupId>
+      <artifactId>juzu-depchain-arquillian-tomcat7</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
 
 
 	</dependencies>
