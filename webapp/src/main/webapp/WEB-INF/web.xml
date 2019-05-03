@@ -4,11 +4,14 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 
-
+ <display-name>valek</display-name>
+  <listener>
+    <listener-class>org.exoplatform.container.web.PortalContainerConfigOwner</listener-class>
+  </listener>
   <!-- Run mode: prod, dev or live -->
   <context-param>
     <param-name>juzu.run_mode</param-name>
-    <param-value>${juzu.run_mode:dev}</param-value>
+    <param-value>${juzu.run_mode:prod}</param-value>
   </context-param>
 
   <!-- Injection container to use: guice, spring, cdi or weld -->
@@ -16,5 +19,5 @@
     <param-name>juzu.inject</param-name>
     <param-value>guice</param-value>
   </context-param>
-<display-name>valek-portlet</display-name>
+
   </web-app>
